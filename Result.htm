@@ -1,0 +1,118 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><title>NEOS Job #7643620</title>
+
+</head><body bgcolor="#ffffff">
+
+     <a href="https://neos-server.org/neos">
+          <img src="NEOS%20Job%20%237643620.20191026_files/neos_solvers_bannerfinal.jpg" alt="NEOS Server Home" vspace="4" border="0"></a>
+
+<p></p><hr><br>
+<pre>*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 7643620
+   Password : zEQjGkHY
+   User     : None
+   Solver   : lp:Gurobi:LP
+   Start    : 2019-10-26 14:13:31
+   End      : 2019-10-26 14:13:33
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+/opt/gurobi/latest/linux64/lib:/opt/gurobi/latest/linux64/lib:/opt/rh/python27/root/usr/lib64
+Load Avg: ( 16.01 , 16.02 , 16.5 )
+Read LP format model from file model.lp
+Reading time = 0.00 seconds
+: 37 rows, 49 columns, 119 nonzeros
+
+
+Checking threads settings... (NEOS allows a maximum of 4 threads)
+Changed value of parameter Threads to 4
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Optimize a model with 37 rows, 49 columns and 119 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+00]
+  Objective range  [2e+00, 3e+00]
+  Bounds range     [1e+01, 1e+01]
+  RHS range        [0e+00, 0e+00]
+Presolve removed 25 rows and 37 columns
+Presolve time: 0.00s
+Presolved: 12 rows, 12 columns, 56 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7500000e+01   1.812500e+01   0.000000e+00      0s
+       4    1.7857143e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  1.785714286e+01
+
+
+********** Begin .sol file *************
+
+# Objective value = 1.7857142857142854e+01
+x_4_to_C 3.5714285714285737e-01
+x_5_to_C 0
+y_4_to_C 5.7142857142857135e+00
+y_5_to_C 0
+a_A_to_1 3.9285714285714288e+00
+a_2_to_1 0
+a_1_to_4 3.9285714285714288e+00
+b_2_to_1 0
+b_1_to_4 0
+x_2_to_1 3.5714285714285737e-01
+x_1_to_4 3.5714285714285737e-01
+y_2_to_1 5.7142857142857135e+00
+y_1_to_4 5.7142857142857135e+00
+a_F1_to_2 0
+a_F2_to_2 0
+b_F1_to_2 0
+b_F2_to_2 0
+x_F1_to_2 3.5714285714285737e-01
+x_F2_to_2 0
+y_F1_to_2 3.2142857142857140e+00
+y_F2_to_2 2.5
+a_A_to_3 2.5
+a_3_to_F2 2.5
+b_B_to_3 7.5
+b_3_to_F2 7.5
+a_4_to_F1 3.9285714285714288e+00
+b_4_to_F1 0
+a_6_to_5 0
+a_5_to_F1 0
+b_6_to_5 10
+b_5_to_F1 10
+x_6_to_5 0
+y_6_to_5 0
+a_F2_to_6 0
+b_F2_to_6 0
+b_B_to_6 10
+x_F2_to_6 0
+y_F2_to_6 0
+capacity_2_to_1 6.0714285714285712e+00
+capacity_1_to_4 10
+capacity_4_to_C 6.0714285714285712e+00
+capacity_4_to_F1 3.9285714285714288e+00
+capacity_F1_to_2 3.5714285714285712e+00
+capacity_F2_to_2 2.5
+capacity_5_to_F1 10
+capacity_5_to_C 0
+capacity_6_to_5 10
+capacity_F2_to_6 0
+capacity_3_to_F2 10
+
+********** End .sol file ***************
+
+
+
+</pre><br>Additional Output: <a href="https://neos-server.org/neos/jobs/7640000/7643620-zEQjGkHY-solver-output.zip">7643620-zEQjGkHY-solver-output.zip</a><br>
+    <p></p><hr>
+    <p>
+    <a href="https://neos-server.org/neos">
+    <img src="NEOS%20Job%20%237643620.20191026_files/neos_home.jpg" alt="NEOS Server" border="0"></a>
+</p></body></html>
